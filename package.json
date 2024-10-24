@@ -2,11 +2,14 @@
   "name": "test-sreda-ct",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://906fd2ba.github.io/test-sreda-ct/",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "pinia": "^2.2.4",
@@ -14,6 +17,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.4",
+    "gh-pages": "^6.2.0",
     "vite": "^5.4.9"
   }
 }

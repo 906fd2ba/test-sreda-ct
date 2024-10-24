@@ -23,3 +23,6 @@ https://906fd2ba.github.io/test-sreda-ct/
 
 ### npm start
 Запустить собранный в прод проект.
+
+### npm run deploy
+Задеплоить на github pages.
