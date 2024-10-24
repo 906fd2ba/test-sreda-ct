@@ -1,0 +1,13 @@
+.device, .node {
+    border: cornflowerblue 1px solid;
+    border-radius: 16px;
+    padding: 10px;
+
+    &:not(:first-child) {
+        margin-top: 30px;
+    }
+}
+
+.device .node {
+    margin-top: 16px;
+}
